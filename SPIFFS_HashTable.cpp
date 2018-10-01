@@ -1,10 +1,10 @@
 /*
-  HashTableSPIFFS.cpp - library for making hash table in SPIFFS area
+  SPIFFS_HashTable.cpp - library for making hash table in SPIFFS area
   Created by amin ;)
 */
 
 #include "Arduino.h"
-#include "HashTableSPIFFS.h"
+#include "SPIFFS_HashTable.h"
 
 #define dir "/members.db"
 #define itemEnd	0xFFFF		// nextLength bytes 0xFF
